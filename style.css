@@ -16,6 +16,17 @@ body {
   font-size: 24px;
   padding-top: 50px;
 }
+.block .city-name {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  color: azure;
+}
+.block .city-name:focus {
+  background-color: rgb(33, 33, 32);
+}
 .block .city {
   font-size: 50px;
   text-transform: uppercase;
